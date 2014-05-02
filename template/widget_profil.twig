@@ -28,12 +28,11 @@
 
             <!-- Profile info -->
             <div id="profile_info">
-                <h1 id="name" class="transition-02">Dussert Maïlys</h1>
+                <h1 id="name" class="transition-02">{{ __('w_profile_name') }}</h1>
                 <h4 class="line">
-                    Master of Science in Luxury Management<br />
-                    Specialization : Goods and Services
+                    {{ __('w_profile_line') }}
                 </h4>
-                <h6><span class="fa fa-map-marker"></span> Paris , France</h6>
+                <h6><span class="fa fa-map-marker"></span>{{ __('w_profile_location')|raw }}</h6>
             </div>
             <!-- End Profile info -->
 
@@ -41,8 +40,7 @@
             <!-- Profile Description -->
             <div id="profile_desc">
                 <p>
-                    Bienvenue sur mon portfolio :) <br />
-                    Vous trouverez ici toutes les informations me concernant, n'hésitez pas à me contacter !
+                    {{ __('w_profile_desc') }}
                 </p>
             </div>
             <!-- End Profile Description -->
@@ -50,7 +48,7 @@
 
             <!-- Name -->
             <div id="profile_social">
-                <h6>Mes profils sociaux</h6>
+                <h6>{{ __('w_profile_social') }}</h6>
                 {% include 'block/social_button.twig' %}
             </div>
             <!-- End Name -->

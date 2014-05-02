@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteRule ^fr$ %{ENV:REWRITEBASE}index.php?lang=fr [QSA,L]
+RewriteRule ^en$ %{ENV:REWRITEBASE}index.php?lang=en [QSA,L]

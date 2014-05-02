@@ -1,13 +1,13 @@
 <div id="profile" class="content_2">
     <!-- .title -->
-    <h1 class="h-bloc">Profile - A propos de moi</h1>
+    <h1 class="h-bloc">{{ __('profile_title') }}</h1>
 
     <div class="row top-p">
         <div class="col-md-6 profile-l">
 
             <!--About me-->
             <div class="title_content">
-                <div class="text_content">Dussert Maïlys</div>
+                <div class="text_content">{{ __('w_profile_name') }}</div>
                 <div class="clear"></div>
             </div>
 
@@ -15,15 +15,15 @@
 
                 <li>
                     <i class="glyphicon glyphicon-calendar"></i>
-                    <label>Née le</label>
-                    <span class="value">22 mai 1991</span>
+                    <label>{{ __('profile_birth_title') }}</label>
+                    <span class="value">{{ __('profile_birth_value') }}</span>
                     <div class="clear"></div>
                 </li>
 
                 <li>
                     <i class="glyphicon glyphicon-map-marker"></i>
-                    <label>Location</label>
-                    <span class="value">Paris, France</span>
+                    <label>{{ __('profile_location_title') }}</label>
+                    <span class="value">{{ __('profile_location_value') }}</span>
                     <div class="clear"></div>
                 </li>
 
@@ -36,7 +36,7 @@
 
                 <li>
                     <i class="glyphicon glyphicon-phone"></i>
-                    <label>Téléphone</label>
+                    <label>{{ __('profile_phone_title') }}</label>
                     <span class="value">06 12 34 56 78</span>
                     <div class="clear"></div>
                 </li>
@@ -45,10 +45,10 @@
                     <i class="glyphicon glyphicon-globe"></i>
                     <label>Website</label>
                     <span class="value">
-                                                                <a href="http://www.mailys-dussert.com" target="_blank">
-                                                                    www.mailys-dussert.com
-                                                                </a>
-                                                                </span>
+                        <a href="http://www.mailys-dussert.com" target="_blank">
+                            www.mailys-dussert.com
+                        </a>
+                    </span>
                     <div class="clear"></div>
                 </li>
 
@@ -57,13 +57,12 @@
 
             <p style="margin-bottom:20px">
                 <i class="fa fa-quote-left"></i>
-                Après mon bac ES, j'ai décidé d'intégrer l'ECE Lyon, l'école de commerce visé du groupe INSEEC avec une spécialisation en marketing international. Pendant ces quatre années, j'ai acquéri de nombreuses expériences professionnelles ainsi qu'une très forte dimension internationale. Actuellement, je suis étudiante en Master 2 spécialisé en management du Luxe à l' "international University of Monaco".
+                {{ __('profile_desc_1') }}
             </p>
 
             <p style="margin-bottom:20px">
                 <i class="fa fa-quote-left"></i>
-                Mon projet professionnel s'oriente vers le marketing ou la communication dans le secteur des cosmétiques ou parfums de luxe. Je suis à la recherche d'un stage de six mois à partir de juillet 2014.
-
+                {{ __('profile_desc_2') }}
             </p>
 
         </div>
@@ -87,7 +86,7 @@
     <div class="row" id="services">
         <div class="col-md-12">
             <div class="title_content">
-                <div class="text_content">Mais encore !</div>
+                <div class="text_content">{{ __('service_title') }}</div>
                 <div class="clear"></div>
             </div>
 
@@ -96,8 +95,8 @@
                 <div class="service">
                     <div class="service-icon"><i class="fa fa-eye"></i></div>
                     <div class="service-detail">
-                        <h6>Cosmétiques</h6>
-                        <p>J'aime et ne vie que pour la cosmétique.</p>
+                        <h6>{{ __('service_cosmetic_title') }}</h6>
+                        <p>{{ __('service_cosmetic_value') }}</p>
                     </div>
                 </div>
             </div>
@@ -105,8 +104,8 @@
                 <div class="service">
                     <div class="service-icon"><i class="fa fa-star"></i></div>
                     <div class="service-detail">
-                        <h6>Luxe</h6>
-                        <p>Le sens du détail, la beauté et la perfection sont de rigeur.</p>
+                        <h6>{{ __('service_luxe_title') }}</h6>
+                        <p>{{ __('service_luxe_value') }}</p>
                     </div>
                 </div>
             </div>
@@ -114,8 +113,8 @@
                 <div class="service">
                     <div class="service-icon"><i class="fa fa-group"></i></div>
                     <div class="service-detail">
-                        <h6>Fun</h6>
-                        <p>Je croque la vie à pleine dent, toujours avec sourire. Je suis une personne avec qui la conversation n'est pas un défi.</p>
+                        <h6>{{ __('service_fun_title') }}</h6>
+                        <p>{{ __('service_fun_title') }}</p>
                     </div>
                 </div>
             </div>

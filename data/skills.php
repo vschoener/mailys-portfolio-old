@@ -87,3 +87,5 @@ $skills = array(
         )
     )
 );
+
+i18n::translateArray($skills, 'skills');

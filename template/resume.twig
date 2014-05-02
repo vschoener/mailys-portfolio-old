@@ -1,6 +1,6 @@
 <div id="resume" class="content_2">
 <!-- .title -->
-<h1 class="h-bloc">Résumé - Expérience Personnel</h1>
+<h1 class="h-bloc">{{ __('resume_title') }}</h1>
 
 <div class="row">
 
@@ -93,19 +93,18 @@
 
             <!-- .title_content -->
             <div class="title_content" style="margin-bottom:5px">
-                <div class="text_content">Références</div>
+                <div class="text_content">{{ __('reference_title') }}</div>
                 <div class="clear"></div>
             </div>
             <!-- /.title_content -->
             <ul>
                 <li class="clearfix">
                     <img src="/images/people/angelique_melcom_linkedin.jpg" class="img_reference" width="100" height="100" alt="">
-                    <p>“Mailys is a pleasure to work with because her pleasant and positive attitude can make nearly any work seem fun and interesting. Mailys has great organizational skills. She is able to successfully complete multiple tasks with favorable results despite deadline pressure.
-                        I have enjoyed watching the way she has grown at INSEEC Chicago.”</p>
+                    <p>“{{ __('reference_list_0_content') }}”</p>
 
                     <span class="pull-right">
-                        Angelique Melcom Elchibegian, Manager US at CEC- INSEEC
-                        <small style="color: #999;"><i> ( linkedin )</i></small>
+                        {{ __('reference_list_0_from') }}
+                        <small style="color: #999;"><i> ( {{ __('reference_list_0_source') }} )</i></small>
                     </span>
                 </li>
             </ul>
