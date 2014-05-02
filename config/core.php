@@ -53,7 +53,7 @@ $twig = new Twig_Environment($loader, array(
 ));
 
 $function = new Twig_SimpleFunction('__', function ($constant) {
-    echo _('L::'.$constant);
+    echo __('L::'.$constant);
 });
 $twig->addFunction($function);
 

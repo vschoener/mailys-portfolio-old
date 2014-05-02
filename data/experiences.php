@@ -40,7 +40,7 @@ foreach($experiences as $experience_type => $experience_data) {
     foreach($experience_data['company_list'] as $company_name) {
         $tmp = array();
         foreach($intl_fields as $field_name) {
-            $tmp[$field_name] = _('L::experiences_'.$experience_type.'_'.$company_name.'_'.$field_name);
+            $tmp[$field_name] = __('L::experiences_'.$experience_type.'_'.$company_name.'_'.$field_name);
         }
         $experiences[$experience_type]['list'][] = $tmp;
     }

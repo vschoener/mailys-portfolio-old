@@ -305,6 +305,6 @@ class i18n {
     }
 }
 
-function _($constant_name) {
+function __($constant_name) {
     return i18n::getConstantIntl($constant_name);
 }
