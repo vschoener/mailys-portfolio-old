@@ -297,18 +297,18 @@ jQuery(document).ready(function($) {
 	function initialize() {
 	map = new GMaps({
 	div: '#map',
-	lat: -37.817917,
-	lng: 144.965065,
-	zoom: 16
+	lat: 48.8588589,
+	lng: 2.3470599,
+	zoom: 11
 	
 	});
 	map.addMarker({
-	lat: -37.81792,
-	lng: 144.96506,
-	title: 'Marker with InfoWindow',
+	lat: 48.8588589,
+	lng: 2.3470599,
+	title: 'Location',
 	icon: 'images/map-marker.png',
 	infoWindow: {
-	content: '<p>Melbourne Victoria, 300, Australia</p>'
+	content: '<p>Paris, France</p>'
 	}
 	});
 	}

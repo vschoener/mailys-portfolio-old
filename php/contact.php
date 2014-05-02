@@ -1,9 +1,9 @@
 <?php
 
-$TO = 'uness.informatique@gmail.com';
+$TO = 'vincent.schoener@gmail.com';
 
 //message the subject of the email
-$SUBJECT = 'Contact from your FlexyCard';
+$SUBJECT = 'Contact depuis votre site';
 $MSG_SEND_ERROR = 'Sorry, we can\'t send this message.';
 
 // Sender Info
@@ -50,4 +50,3 @@ if (!$error) {
 } else {
     echo $error; // If the message is not send return error
 }
-?>
