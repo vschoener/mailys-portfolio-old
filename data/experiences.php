@@ -19,6 +19,8 @@ $experiences = array(
             'sa_bassa_torja',
             'carat',
             'o_and_d',
+            'INSEEC',
+            'asso_ece',
             'sephora'
         )
     ),
@@ -29,8 +31,6 @@ $experiences = array(
             'lycee',
             'groningen',
             'ece_lyon',
-            'INSEEC',
-            'asso_ece',
             'ium'
         )
     ),
