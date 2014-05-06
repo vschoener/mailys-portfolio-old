@@ -48,5 +48,5 @@ if (!$error) {
         echo $MSG_SEND_ERROR;
     }
 } else {
-    echo $error; // If the message is not send return error
+    echo error_get_last(); // If the message is not send return error
 }
