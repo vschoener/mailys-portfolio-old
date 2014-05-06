@@ -33,6 +33,9 @@ if (!isset($_GET['lang'])) {
     $select_language = (file_exists(_LANG_DIR_.$_GET['lang'].'.ini')) ? $_GET['lang'] : $select_language;
 }
 
+// For now force French
+$select_language = 'fr';
+
 require_once _ROOT_DIR_.'vendor/autoload.php';
 require_once _LIB_DIR_.'i18n.class.php';
 
