@@ -760,12 +760,18 @@ h2.resp-accordion:hover {
 #profile .profile-r {
     padding-right: 0;
 }
+
+#profile-summary p {
+    text-align: justify;
+}
+
 #profile .cycle-slideshow {
     width: 190px;
     margin: auto;
 }
 #profile .cycle-slideshow img {
     width: 100%;
+    margin: 0 0 10px 10px;
 }
 .bottom-p .panel-body {
     padding: 15px;
