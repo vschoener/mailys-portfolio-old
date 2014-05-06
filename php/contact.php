@@ -1,6 +1,6 @@
 <?php
 
-$TO = 'vincent.schoener@gmail.com';
+$TO = 'mailys.dussert@gmail.com';
 
 //message the subject of the email
 $SUBJECT = 'Contact depuis votre site';
