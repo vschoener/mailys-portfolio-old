@@ -21,7 +21,8 @@ $experiences = array(
             'o_and_d',
             'INSEEC',
             'asso_ece',
-            'sephora'
+            'sephora',
+            'bpi'
         )
     ),
     'education' => array(
