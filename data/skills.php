@@ -6,7 +6,7 @@ $skills = array(
         'list' => array(
             array(
                 'name' => 'MS Excel',
-                'percentage' => '70'
+                'percentage' => '90'
             ),
             array(
                 'name' => 'MS Word',
@@ -19,6 +19,10 @@ $skills = array(
             array(
                 'name' => 'Google Apps',
                 'percentage' => '75'
+            ),
+            array(
+                'name' => 'SAP',
+                'percentage' => '90'
             ),
         )
     ),
@@ -35,7 +39,7 @@ $skills = array(
         'title' => 'Autres',
         'list' => array(
             array(
-                'name' => 'Cosmétique',
+                'name' => 'Cosmétiques',
                 'percentage' => '95'
             ),
             array(
