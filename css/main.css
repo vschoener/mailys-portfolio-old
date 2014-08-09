@@ -767,11 +767,22 @@ h2.resp-accordion:hover {
 
 #profile .cycle-slideshow {
     width: 190px;
-    margin: auto;
+    height: 190px;
+    margin: 0 0 10px 10px;
+    white-space: nowrap;
+    text-align: center;
+    position: relative;
 }
+
 #profile .cycle-slideshow img {
     width: 100%;
-    margin: 0 0 10px 10px;
+    vertical-align: middle;
+    max-height: 190px;
+    max-width: 190px;
+    position:absolute;
+    top:0;
+    bottom:0;
+    margin:auto;
 }
 .bottom-p .panel-body {
     padding: 15px;
