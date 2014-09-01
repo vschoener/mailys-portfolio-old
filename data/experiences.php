@@ -18,7 +18,6 @@ $experiences = array(
             'swaroski',
             'sa_bassa_torja',
             'carat',
-            'o_and_d',
             'INSEEC',
             'asso_ece',
             'sephora',
