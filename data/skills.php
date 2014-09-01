@@ -14,7 +14,7 @@ $skills = array(
             ),
             array(
                 'name' => 'Power Point',
-                'percentage' => '90'
+                'percentage' => '95'
             ),
             array(
                 'name' => 'Google Apps',
@@ -22,7 +22,11 @@ $skills = array(
             ),
             array(
                 'name' => 'SAP',
-                'percentage' => '90'
+                'percentage' => '80'
+            ),
+            array(
+                'name' => 'Business Objects',
+                'percentage' => '80'
             ),
         )
     ),
