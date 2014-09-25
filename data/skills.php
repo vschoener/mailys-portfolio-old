@@ -21,6 +21,10 @@ $skills = array(
                 'percentage' => '75'
             ),
             array(
+                'name' => 'NPD',
+                'percentage' => '95'
+            ),
+            array(
                 'name' => 'SAP',
                 'percentage' => '80'
             ),
