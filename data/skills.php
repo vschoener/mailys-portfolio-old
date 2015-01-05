@@ -56,6 +56,10 @@ $skills = array(
             ),
             array(
                 'name' => 'Luxe',
+                'percentage' => '85'
+            ),
+            array(
+                'name' => 'Mode',
                 'percentage' => '80'
             ),
         )
