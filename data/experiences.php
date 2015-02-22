@@ -22,7 +22,6 @@ $experiences = array(
             'asso_ece',
             'sephora',
             'bpi',
-            'comptoir'
         )
     ),
     'education' => array(
