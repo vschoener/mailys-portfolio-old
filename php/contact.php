@@ -9,9 +9,8 @@ $MSG_SEND_ERROR = 'Sorry, we can\'t send this message.';
 // Sender Info
 $name = $_POST['name'];
 $email = $_POST['email'];
-$message = $_POST['message'];
+$message = "Message envoyé depuis ton portfolio par : <a href='mailto:$email'>$email</a><br /><br />". $_POST['message'];
 $error = "";
-
 
 // Email regex
 $pattern = "^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$^";
@@ -33,7 +32,7 @@ if (empty($message)) {
 
 
 //define the headers we want passed. Note that they are separated with \r\n
-$headers = "From: " . $name . " <" . $email . ">\r\nReply-To: " . $email . "";
+$headers = "From: " . $name . " <vincent.schoener@gmail.com>\r\nReply-To: " . $email . "";
 
 if (!$error) {
 

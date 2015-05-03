@@ -2867,7 +2867,8 @@ ul.desc_list li {
 }
 ul.desc_list li.title {
 }
-ul.desc_list li:before{
+
+ul.desc_list > li:not(.newLine):before {
     color: #747273;
     content: '» \0000a0';
     font-size: 1.2em;
@@ -2880,7 +2881,7 @@ ul.sub_list li {
     padding-left: 15px;
 }
 
-ul.sub_list li:before {
+ul.sub_list > li:before {
     content: '\2611  ';
     font-size: 1.2em;
     font-weight: bold;
@@ -2889,4 +2890,8 @@ ul.sub_list li:before {
 .short_desc {
     margin-top: 3px;
     color: rgb(196, 196, 196);
+}
+
+li.newLine {
+    padding: 5px 0;
 }
