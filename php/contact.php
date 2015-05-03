@@ -32,7 +32,7 @@ if (empty($message)) {
 
 
 //define the headers we want passed. Note that they are separated with \r\n
-$headers = "From: " . $name . " <vincent.schoener@gmail.com>\r\nReply-To: " . $email . "\r\nMIME-Version: 1.0\r\nContent-Type: text/html; charset=ISO-8859-1\r\n";
+$headers = "From: " . $name . " <vincent.schoener@gmail.com>\r\nReply-To: " . $email . "\r\nMIME-Version: 1.0\r\nContent-Type: text/html; charset=UTF-8\r\n";
 
 if (!$error) {
 
