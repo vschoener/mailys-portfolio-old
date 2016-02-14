@@ -22,7 +22,8 @@ $experiences = array(
             'asso_ece',
             'sephora',
             'bpi_stage',
-            'bpi_CDD'
+            'bpi_CDD',
+            'bpi_CDD_extended'
         )
     ),
     'education' => array(
